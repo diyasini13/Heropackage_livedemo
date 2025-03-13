@@ -1,0 +1,75 @@
+{
+    "content":[
+        {
+            "packageName": "AI & ML",
+            "solutions": [
+                {
+                    "title": "Extract Data from Documents using DocAl",
+                    "description": "This architecture uses Google Document Al to extract document data, storing it in BigOuery. It automates tasks like invoice processing, contract analysis, and document classification.",
+                    "githubUrl": "https://github.com/GoogleCloudPlatform/click-to-deploy-solutions/tree/main/document-ai#numbers",
+                    "liveDemoLink": "https://documentaidemo-633630984866.us-central1.run.app",
+                    "guidedTutorial": "https://google.com"
+                },
+                {
+                    "title": "Edit Images using Imagen",
+                    "description": "Deploy Google Cloud Imagen API to auto-mask images and edit them based on your prompts",
+                    "githubUrl": "https://github.com/GoogleCloudPlatform/click-to-deploy-solutions/tree/main/Editing-with-Imagen#numbers",
+                    "liveDemoLink": "https://imagenlivedemo-633630984866.us-central1.run.app"
+                },
+                {
+                    "title": "Indentify Objects in Images",
+                    "description": "Deploy Google Cloud Vision API to detect objects in images, save results as JSON, and import to BigOuery. Supports visual search, content moderation, and inventory management.",
+                    "githubUrl": "https://github.com/GoogleCloudPlatform/click-to-deploy-solutions/tree/main/object-localization#numbers",
+                    "liveDemoLink": "https://imagenlivedemo-633630984866.us-central1.run.app"
+                },
+                {
+                    "title": "Sentiment Analysis(Coming soon)",
+                    "description": "Automates sentiment analysis with the Natural Language API, storing results in Cloud Storage and BigOuery. It supports feedback, brand monitoring, research, social media, and engagement.",
+                    "githubUrl": "https://github.com/GoogleCloudPlatform/click-to-deploy-solutions/tree/main/nlp-sentiment-analysis#numbers",
+                    "liveDemoLink": ""
+                },
+                {
+                    "title": "Classify Keywords with Al(Coming soon)",
+                    "description": "Uses GenAl to classify texts, store results in BigQuery, and visualize them in Looker Studio for organizing documents, tagging products, prioritizing tickets, aiding diagnoses, and detecting plagiarism.",
+                    "githubUrl": "https://github.com/GoogleCloudPlatform/click-to-deploy-solutions/tree/main/text-classification#numbers",
+                    "liveDemoLink": ""
+                }
+            ]
+        },
+        {
+            "packageName": "Application Mod",
+            "solutions": [
+                {
+                    "title": "Extract Data from Documents using DocAl",
+                    "description": "This architecture uses Google Document Al to extract document data, storing it in BigOuery. It automates tasks like invoice processing, contract analysis, and document classification.",
+                    "githubUrl": "https://github.com/",
+                    "liveDemoLink": "https://liveDemoLink"
+                },
+                {
+                    "title": "Edit Images using Imagen",
+                    "description": "Deploy Google Cloud Imagen API to auto-mask images and edit them based on your prompts",
+                    "githubUrl": "",
+                    "liveDemoLink": ""
+                },
+                {
+                    "title": "Indentify Objects in Images",
+                    "description": "Deploy Google Cloud Vision API to detect objects in images, save results as JSON, and import to BigOuery. Supports visual search, content moderation, and inventory management.",
+                    "githubUrl": "",
+                    "liveDemoLink": ""
+                },
+                {
+                    "title": "Sentiment Analysis(Coming soon)",
+                    "description": "Automates sentiment analysis with the Natural Language API, storing results in Cloud Storage and BigOuery. It supports feedback, brand monitoring, research, social media, and engagement.",
+                    "githubUrl": "",
+                    "liveDemoLink": ""
+                },
+                {
+                    "title": "Classify Keywords with Al(Coming soon)",
+                    "description": "Uses GenAl to classify texts, store results in BigQuery, and visualize them in Looker Studio for organizing documents, tagging products, prioritizing tickets, aiding diagnoses, and detecting plagiarism.",
+                    "githubUrl": "",
+                    "liveDemoLink": ""
+                }
+            ]
+        }
+    ]
+}

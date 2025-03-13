@@ -1,0 +1,137 @@
+[AI_and_ML]
+
+[[AI_and_ML.packages]]
+title = "Extract Data from Documents using DocAI "
+subtitle = "This architecture uses Google Document AI to extract document data, storing it in BigQuery. It automates tasks like invoice processing, contract analysis, and document classification."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/document-ai"
+liveDemoUrl = "https://documentaidemo-633630984866.us-central1.run.app"
+
+[[AI_and_ML.packages]]
+title = "Edit Images using Imagen"
+subtitle = "Deploy Google Cloud Imagen API to auto-mask images and edit them based on your prompts"
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/tree/main/Editing-with-Imagen"
+liveDemoUrl = "https://imagenlivedemo-633630984866.us-central1.run.app"
+
+[[AI_and_ML.packages]]
+title = "Objects in Images"
+subtitle = "Deploy Google Cloud Vision API to detect objects in images, save results as JSON, and import to BigQuery. Supports visual search, content moderation, and inventory management."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/object-localization"
+liveDemoUrl = "https://imagenlivedemo-633630984866.us-central1.run.app"
+
+[[AI_and_ML.packages]]
+title = "Sentiment Analysis"
+subtitle = "Automates sentiment analysis with the Natural Language API, storing results in Cloud Storage and BigQuery. It supports feedback, brand monitoring, research, social media, and engagement."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/nlp-sentiment-analysis"
+liveDemoUrl = "https://imagenlivedemo-633630984866.us-central1.run.app"
+
+[[AI_and_ML.packages]]
+title = " Keywords with AI"
+subtitle = "Uses GenAI to classify texts, store results in BigQuery, and visualize them in Looker Studio for organizing documents, tagging products, prioritizing tickets, aiding diagnoses, and detecting plagiarism."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/text-classification"
+liveDemoUrl = "https://imagenlivedemo-633630984866.us-central1.run.app"
+
+[Application_Modernization]
+
+[[Application_Modernization.packages]]
+title = "Serverless Wordpress with Cloud Run"
+subtitle = "Terraform architecture enables quick WordPress deployment on Cloud Run, handling traffic spikes automatically. Suitable for business, e-commerce, portfolio, non-profit, and educational websites."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/wordpress-on-cloudrun"
+liveDemoUrl = ""
+
+[[Application_Modernization.packages]]
+title = "Host Your Website"
+subtitle = "Provides scalable, reliable e-commerce web hosting on Google Cloud, using Compute Engine, Cloud CDN, Cloud Storage, and Cloud SQL for optimized delivery and automatic scaling."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/ecommerce-webhosting"
+liveDemoUrl = ""
+
+[[Application_Modernization.packages]]
+title = "Auto Scaling with GKE Autopilot"
+subtitle = "Terraform to deploy an auto-scaling application with GKE Autopilot and HPA, adjusting pods based on CPU usage for high availability and resource efficiency."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/gke-autopilot-hpa"
+liveDemoUrl = ""
+
+[[Application_Modernization.packages]]
+title = "NGINX Load Balancing in Kubernetes"
+subtitle = "This architecture quickly deploys a GKE cluster with NGINX for load balancing, Jenkins for CI/CD, and Prometheus for monitoring, ensuring scalable and efficient application deployments."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/gke-standard-nginx"
+liveDemoUrl = ""
+
+[[Application_Modernization.packages]]
+title = "Three-Tier Web App with MIG"
+subtitle = "Deploys a three-tier auto-scaling web app on Google Compute Engine with Managed Instance Groups, Cloud NAT, and Cloud Armor for security, suitable for various web applications and migrations."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/three-tier-app-gce"
+liveDemoUrl = ""
+
+[[Application_Modernization.packages]]
+title = "Three-Tier Web App with GKE"
+subtitle = "Deploys a three-tier web app on GKE using Terraform, featuring GKE clusters, Cloud SQL, Cloud Storage, and Memorystore, ideal for e-commerce, CMS, and analytics dashboards."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/three-tier-gke"
+liveDemoUrl = ""
+
+[[Application_Modernization.packages]]
+title = "Windows File Server on Google Cloud"
+subtitle = "Deploys a 2TB Windows file server on Google Cloud with click-to-deploy, providing scalable, secure storage and disk snapshots for data protection, ideal for enterprise file sharing and hybrid cloud solutions."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/windows-fileserver"
+liveDemoUrl = ""
+
+[Data_Analytics_and_Modernization]
+
+[[Data_Analytics_and_Modernization.packages]]
+title = "Foundation Data Pipeline"
+subtitle = "Deploys a secure, scalable data pipeline on Google Cloud, using Cloud Storage, Dataflow, and BigQuery for data transformation, privacy, anomaly detection, analysis, forecasting, and ML models."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/gcs-to-bq-with-least-privileges"
+liveDemoUrl = ""
+
+[[Data_Analytics_and_Modernization.packages]]
+title = "Manage Data Pipelines"
+subtitle = "Set up a scalable ETL pipeline on Google Cloud with Cloud Composer, automating scheduling, monitoring, retries, and ensuring data quality for integration and warehousing with BigQuery."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/cloud-composer-etl"
+liveDemoUrl = ""
+
+[[Data_Analytics_and_Modernization.packages]]
+title = "Disaster Recovery with Cloud SQL"
+subtitle = "Sets up a highly available, disaster-resilient Cloud SQL PostgreSQL database with multi-region read replicas, ensuring data accessibility and failover support for critical applications."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/cloudsql-ha-dr"
+liveDemoUrl = ""
+
+[[Data_Analytics_and_Modernization.packages]]
+title = "Event-Driven Analytics Pipeline"
+subtitle = "Sets up an event-driven data analytics pipeline on Google Cloud, using cloud functions to load data from Cloud Storage to BigQuery for real-time analytics, streamlined ETL, and data archival."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/data-analytics-platform-event-driven"
+liveDemoUrl = ""
+
+[[Data_Analytics_and_Modernization.packages]]
+title = "Automate Data Transfer"
+subtitle = "Automate data transfer from Google Cloud Storage to BigQuery with scheduled jobs, enabling efficient data consolidation, warehousing, and real-time analytics."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/data-analytics-platform-scheduled"
+liveDemoUrl = ""
+
+[[Data_Analytics_and_Modernization.packages]]
+title = "Robust Pipeline with Data Fusion and SQL"
+subtitle = "Integrates Cloud Data Fusion with a private Cloud SQL instance for secure, efficient data pipelines, enabling real-time processing, ETL, data exploration, and consolidation."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/private-cloud-data-fusion"
+liveDemoUrl = ""
+
+[[Data_Analytics_and_Modernization.packages]]
+title = "Database Replication for Analysis"
+subtitle = "Replicates traditional databases to BigQuery for real-time analytics, historical analysis, and visualization with Looker Studio, enhancing data insights and machine learning capabilities."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/replicating-databases-bigquery"
+liveDemoUrl = ""
+
+[[Data_Analytics_and_Modernization.packages]]
+title = "Real-Time Event Streaming"
+subtitle = "Terraform to set up real-time event streaming on Google Cloud with Cloud Run API, Pub/Sub, and BigQuery, enabling immediate data insights for personalization, IoT data processing, and real-time monitoring."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/streaming-data-to-analytics"
+liveDemoUrl = ""
+
+[[Data_Analytics_and_Modernization.packages]]
+title = "Data Loss Prevention"
+subtitle = "Serverless pipeline uses the DLP API to mask sensitive log data via Pub/Sub and Cloud Run, ensuring secure storage and compliance, ideal for data masking, compliance monitoring, and incident response."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/data-loss-prevention"
+liveDemoUrl = ""
+
+[[Data_Analytics_and_Modernization.packages]]
+title = "Cloud Armor Protection"
+subtitle = "Uses Cloud Armor and Load Balancing for secure, highly available apps, protecting against DDoS, SQL injection, and XSS, ideal for high compute workloads, industry apps, GDPR compliance, and geofencing."
+githubUrl = "GoogleCloudPlatform/click-to-deploy-solutions/blob/main/cloud-armor-demo"
+liveDemoUrl = ""
