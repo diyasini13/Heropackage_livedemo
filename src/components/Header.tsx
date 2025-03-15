@@ -9,7 +9,7 @@ function Header() {
       <img className='' src={banner} alt="banner" sizes="" />
       </a>
       <div className="h-4"></div>
-      <div className="text-center p-2 bg-white-10"> {/* Added margin top for spacing */}
+      <div className="text-center p-2 bg-white-10  bg-gray-100"> {/* Added margin top for spacing */}
             <p className="font-googlesans text-sm md:text-xl">Please fill the <a href="https://forms.gle/fC76Upee7H6d88j37" className="text-blue-600 underline" target="_blank">feedback form</a>.</p>
         </div>
       <div className="h-4"></div>
