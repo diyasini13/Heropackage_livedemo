@@ -22,7 +22,7 @@ function SolutionCard(props: { solution: Solution }) {
                     <BasicButton
                         text="Live Demo"
                         link={liveDemoLink}
-                        clickAction={() => OpenInNewTab(liveDemoLink + "?token=" + SecretsManager.getToken())}
+                        clickAction={() => OpenInNewTab(`${liveDemoLink}?token=${SecretsManager.getToken()}`)} // No need to pass the token here
                     />
                 )}
                 {guidedTutorial && (
@@ -39,3 +39,4 @@ function SolutionCard(props: { solution: Solution }) {
 }
 
 export default SolutionCard;
+

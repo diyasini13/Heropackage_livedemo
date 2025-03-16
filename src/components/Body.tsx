@@ -3,12 +3,13 @@ import { Config } from '../interfaces/interfaces';
 import SolutionPackage from './SolutionPackage';
 import { GetNewKey } from '../utils/KeyGenerator';
 import { SecretsManager } from '../utils/SecretsManager';
-// import config from "../assets/config.json"
 
-function Body() {
+interface BodyProps {
+  isAuthenticated: boolean;
+}
+
+function Body({ isAuthenticated }: BodyProps) {
   const [data, setData] = useState<Config | null>(null);
-  // const parsedConfig: Config = config
-  // const [data, setData] = useState<Config | null>(parsedConfig);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -22,7 +23,7 @@ function Body() {
     };
 
     fetchData();
-  }, []);
+  }, [isAuthenticated]); // Add isAuthenticated to the dependency array
 
   if (!data) {
     return <div>Loading...</div>; // Show a loading state until data is fetched
