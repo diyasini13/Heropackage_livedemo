@@ -26,7 +26,7 @@ const AuthPage: React.FC<AuthPageProps> = ({ onLoginSuccess }) => {
       if (google && google.accounts && google.accounts.id) {
         google.accounts.id.initialize({
           client_id:
-            "633630984866-qj00anvn6cu2kahus5ft1cnc4o8pe7dp.apps.googleusercontent.com", // Replace with your client ID
+          "633630984866-qj00anvn6cu2kahus5ft1cnc4o8pe7dp.apps.googleusercontent.com", // Replace with your client ID
           callback: handleCredentialResponse,
         });
         google.accounts.id.renderButton(
@@ -69,3 +69,5 @@ const AuthPage: React.FC<AuthPageProps> = ({ onLoginSuccess }) => {
 };
 
 export default AuthPage;
+
+
