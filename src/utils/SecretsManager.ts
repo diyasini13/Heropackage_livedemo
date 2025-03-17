@@ -22,7 +22,7 @@ export class SecretsManager {
   static async FetchConfig(fileName: string) {
     try {
       const response = await fetch(
-        "https://hero-demo-content.storage.googleapis.com/" + fileName,
+        "https://hero-landing-content.storage.googleapis.com/" + fileName,
         {
           method: "GET",
           headers: {
