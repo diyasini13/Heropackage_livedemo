@@ -58,8 +58,7 @@ const AuthPage: React.FC<AuthPageProps> = ({ onLoginSuccess }) => {
   return (
     <div className="flex items-center justify-center h-screen bg-gray-100">
       <div className="bg-white p-6 rounded-lg shadow-md w-96">
-        <h2 className="text-2xl font-bold mb-4 text-center">Login<p className="text-sm text-gray-600 mb-4 text-center">If the Google Sign-In button doesn't appear below, please refresh the page.</p></h2>
-        
+        <h2 className="text-2xl font-bold mb-4 text-center">Login</h2>
         {error && <p className="text-red-500 text-sm mb-3">{error}</p>}
         {/* Google Sign-In Button */}
         <div id="google-signin-button"></div>
